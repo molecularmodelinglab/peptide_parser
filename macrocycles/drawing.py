@@ -463,8 +463,10 @@ def peptide_report(molecule_ser, match_df):
         ld = str(s['LD']).split(".")[-1]
         if ld == "OTHER":
             ld = ""
+
+        print(s["Residue accessible"])
         is_residue_accessible_nan = pd.isna(s["Residue accessible"])
-        is_residue_accessible = s["Residue accessible"] is True
+        is_residue_accessible = s["Residue accessible"] == True
         if is_residue_accessible_nan:
             color = "#888888"
             residue_accessible_text = "Not considered"
