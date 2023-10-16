@@ -1,0 +1,27 @@
+channels:
+  - defaults
+  - rdkit
+  - conda-forge
+dependencies:
+  - python=3.7
+  - rdkit
+  - svgutils
+  - matplotlib
+  - pandas
+  - networkx=2.6.1
+  - numpy
+  - jupyter
+  - seaborn
+  - molvs
+  - matplotlib-venn
+  - joblib
+  - tqdm
+  - xlsxwriter
+  - camelot-py
+  - yaml
+  - pyyaml
+  - gevent
+  - scikit-learn
+  - nbconvert
+  - mypy
+  - typed-ast
