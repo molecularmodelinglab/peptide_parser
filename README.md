@@ -2,6 +2,10 @@
 
 Python code for parsing molecular structures to identify peptides and detail their constituent residues. Focused on logic for detecting macrocyclization and keeping track of side chain counts across large datasets. Also contains a database of residues shown to be expressible in peptides along with basic heuristics for whether a peptide can be cyclized using either the PatG or PCY1 proteins.
 
+<img src="example_molecule.png"
+     style="float: left; margin-right: 10px; width: 600px" />
+
+
 ## Setup
 
 The code depends on a large number of libraries, particularly RDKit and NetworkX. We provide a conda environment file to install all of the necessary dependencies.
