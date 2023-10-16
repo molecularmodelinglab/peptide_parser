@@ -1,0 +1,9 @@
+Paper Name,Name,Is N-mod,Is Ester,Literature ref,Method,First Author,Last Author,Year,yield annotation,Smiles,Manual attachment smiles,needs review,align drawing,skip parsing,who drew smiles
+,L-Serine,FALSE,FALSE,,Canonical,,,,,OC[C@@H](C(=O)O)N,,,,,
+,Glycine,FALSE,FALSE,,Canonical,,,,,C(C(=O)O)N,,,,,
+,L-Alanine,FALSE,FALSE,,Canonical,,,,,C[C@@H](C(=O)O)N,,,,,
+,L-Proline,FALSE,FALSE,,Canonical,,,,,C1C[C@H](NC1)C(=O)O,,,,,
+Thiazoline,Thn,FALSE,FALSE,https://doi.org/10.1021/jacs.8b11521,Enzyme,Fleming,Bowers,2019,x,C1NC(=CS1)C(=O)O,C([*:1])1NC(=CS1)C(=O)([*:2]),O=C(O)[C@H]1N=CSC1,O=C([*])[C@@H]1N=C([*])SC1,,
+Thiazole,Thz,FALSE,FALSE,https://doi.org/10.1021/jacs.8b11521,Enzyme,Fleming,Bowers,2019,x,C1=NC(=CS1)C(=O)O,C([*:1])1=NC(=CS1)C(=O)([*:2]),,,,
+Oxazoline,2-Oxazoline,FALSE,FALSE,https://doi.org/10.1016/j.chembiol.2014.04.008,Enzyme,Goto,Suga,2014,x,C1NC(=CO1)C(=O)O,C1(=NC(CO1)C(=O)[*:2])[*:1],O=C(O)[C@H]1N=COC1,O=C([*])[C@H]1N=C([*])OC1,,
+Methyloxazoline,Methyl-2-oxazoline,FALSE,FALSE,https://doi.org/10.1016/j.chembiol.2014.04.008,Enzyme,Goto,Suga,2014,x,C1=NC(C(O1)C)C(=O)O,C1(=NC(C(O1)C)C(=O)[*:2])[*:1],C[C@@H]1[C@@H](C(O)=O)N=CO1,C[C@@H]1[C@@H](C([*])=O)N=C([*])O1,,
